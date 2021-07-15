@@ -1,0 +1,17 @@
+{
+  "name": "apollo-express-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Goerge Miguel",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.0.0",
+    "graphql": "^15.5.1"
+  }
+}
