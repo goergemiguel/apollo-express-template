@@ -11,5 +11,5 @@ const deleteAuthor = () => {
 export default {
 	createAuthor,
 	updateAuthor,
-	deleteAuthor
+	deleteAuthor,
 }

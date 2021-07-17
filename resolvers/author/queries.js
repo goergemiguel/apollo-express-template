@@ -7,5 +7,5 @@ const author = () => {
 
 export default {
 	authors,
-	author
+	author,
 }

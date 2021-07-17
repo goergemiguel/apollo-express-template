@@ -3,9 +3,9 @@ import authorMutations from "./author/mutations.js"
 
 export default {
 	Query: {
-		...authorQueries
+		...authorQueries,
 	},
 	Mutation: {
-		...authorMutations
-	}
+		...authorMutations,
+	},
 }

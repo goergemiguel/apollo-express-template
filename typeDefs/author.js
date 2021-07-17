@@ -19,18 +19,18 @@ export default gql`
 	}
 
 	input authorWhereInput {
-		firstName_contains: String,
+		firstName_contains: String
 	}
 
 	input createAuthorInput {
-		firstName: String,
-		lastName: String,
+		firstName: String
+		lastName: String
 		books: [BookInput]
 	}
 
 	input updateAuthorInput {
-		firstName: String,
-		lastName: String,
+		firstName: String
+		lastName: String
 		books: [BookInput]
 	}
 
